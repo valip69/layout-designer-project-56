@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #cacaca;
+    background: #08020d;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+h2 {
+   font-size: 38px;
+   line-height: 57px;
+   font-weight: bold;
+   text-transform: uppercase; 
+}
+
+@media (max-width: $mobile) {
+    h1 {
+        font-size: 30px;
+        line-height: 45px;  
+    }
+
+    h2 {
+        font-size: 18px;
+        line-height: 27px;
+    }    
+}
