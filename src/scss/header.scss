@@ -1,0 +1,78 @@
+.header {
+    position: absolute;
+    display: flex;
+    align-items: center;  
+    max-width: 1240px;
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    font-size: 12.5px;
+    line-height: 16.5px;
+    font-weight: 400;
+    right: 20px;
+  }
+  
+  .header-icon {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-right: 90px;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .header-menu {
+    display: flex;
+    gap: 24px;
+    margin-right: 451px;
+  } 
+    
+  .header-button {
+    width: 248px;
+    background: #3C3B3D;
+    border-radius: 50px;
+    color: #757575;
+    padding: 5px 10px;
+    border: none;
+    text-align: start;
+  }
+
+  .main-banner {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .main-banner h1 {
+    margin: 0;
+  }
+  .main-banner h2 {
+    margin-top: 0;
+  }
+  .main-block {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  .main-form {  
+    min-width: 270px;
+    min-height: 50px;
+    padding-left: 20px;
+    margin-bottom: 1.5rem;
+    border: 2px solid #cacaca;
+    border-radius: 3px;
+    background: none; 
+  }
+  .main-button {
+    width: 570px; 
+    padding: 30px 20px;
+    color: #cacaca;
+    background: #34C176;
+    border-radius: 5px;
+    border: 2px solid #cacaca;
+  }
