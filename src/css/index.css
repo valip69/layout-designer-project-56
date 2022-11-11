@@ -29,7 +29,15 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 a {
+  color: #E0E0E0;
   text-decoration: none;
 }
 
@@ -52,14 +60,13 @@ a {
   position: absolute;
   display: flex;
   align-items: center;
-  max-width: 1240px;
-  margin-top: 25px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1200px;
+  top: 25px;
   font-size: 12.5px;
   line-height: 16.5px;
   font-weight: 400;
   right: 20px;
+  left: 20px;
 }
 
 .header-icon {
@@ -125,11 +132,90 @@ a {
 
 .main-button {
   width: 570px;
-  padding: 30px 20px;
+  padding: 20px 30px;
   color: #cacaca;
   background: #34C176;
   border-radius: 5px;
   border: 2px solid #cacaca;
+}
+
+.section-footer {
+  max-width: 1240px;
+  background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
+}
+
+.section-footer-sector-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 40px;
+  text-align: start;
+  padding: 60px 20px 70px;
+  border-bottom: 2px solid #cacaca;
+}
+
+.section-footer-sector-2 {
+  padding: 40px 20px 50px;
+  display: flex;
+  gap: 16px;
+}
+
+.section-footer-img {
+  padding-right: 24px;
+}
+
+.section-pricing {
+  max-width: 1240px;
+  padding-top: 100px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.section-pricing-cart {
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+}
+
+.pricing-item {
+  max-width: 368px;
+  height: 615px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid #cacaca;
+  text-align: center;
+}
+
+.pricing-value {
+  margin-top: 200px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1em;
+}
+
+.pricing-value span {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  margin-left: 16px;
+}
+
+.bg-free {
+  background: url("../images/subscribe_1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-standart {
+  background: url("../images/subscribe_2.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-premium {
+  background: url("../images/subscribe_3.png");
+  background-position: center;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=index.css.map */
