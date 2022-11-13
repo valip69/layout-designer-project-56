@@ -1,8 +1,23 @@
 .section-footer {
     max-width: 1240px;
+    background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%) 
+}
+
+.section-footer-sector-1 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 2;
-     
+    grid-column-gap: 40px;
+    text-align: start;
+    padding: 60px 20px 70px; 
+    border-bottom: 2px solid #cacaca;
+}
 
+.section-footer-sector-2 {
+    padding: 40px 20px 50px;
+    display: flex;
+    gap: 16px;
+}
+
+.section-footer-img {
+    padding-right: 24px;
 }
