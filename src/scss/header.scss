@@ -26,7 +26,9 @@
   } 
     
   .header-button {
-    width: 248px;
+    display: inline-flex;
+    width: 100%;
+    max-width: 248px;
     background: #3C3B3D;
     border-radius: 50px;
     color: #757575;
@@ -35,164 +37,24 @@
     text-align: start;
   }
 
-  .main-banner {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    text-align: center;
-    background-image: url("../images/banner.png");
-    background-position: center;
-    background-size: cover;
+  @media (max-width: $mobile) { 
+    .header {
+     /* padding-left: 20px;
+      padding-right: 20px;*/
+      position: relative;
+      display: grid;  
+    }
+    
+     .header-menu {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+     }
+     .header-button {
+     margin-top: 15px;
+     /* display: inline-flex;
+      width: 100%;
+      left: 20px;
+      right: 20px;*/
+     }
   }
-
-  .main-banner h1 {
-    margin: 0;
-  }
-
-  .main-banner h2 {
-    margin-top: 0;
-  }
-
-  .main-block {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-  }
-
-  .main-form {  
-    min-width: 270px;
-    min-height: 50px;
-    padding-left: 20px;
-    margin-bottom: 1.5rem;
-    border: 2px solid #cacaca;
-    border-radius: 3px;
-    background: none; 
-  }
-
-  .main-button {
-    width: 570px; 
-    background: #34C176;
-    border: none;
-  }
-
-
-.section-pricing {
-  max-width: 1240px;
-  padding-top: 100px;
-  padding-left: 50px;
- text-align: center;
-}
-
-.section-pricing-cart {
-   display: flex; 
-   gap: 45px;
-   justify-content: center;
-   margin-bottom: 40px;
-}
-
-.section-pricing-cart h3 {
-   margin-top: 24px;
-}
-
-
-.pricing-item {
-   max-width: 368px;
-   padding-left: 1.5rem;
-   padding-right: 1.5rem;
-   border-radius: 1rem;
-   border: 1px solid #cacaca;
-   text-align: center;
-}
-
-.pricing-value {
-   margin-top: 200px;
-   font-weight: 400;
-   font-size: 64px;
-   line-height: 1em;
-   
-}
-
-.pricing-value span {
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 150%;
-  margin-left: 16px; 
-  vertical-align: text-top; 
-}
-
-.section-pricing-cart button {
-  width: 100%;
-}
- 
-
-.bg-free {
-  background: url("../images/subscribe_1.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.bg-standart {
-  background: url("../images/subscribe_2.png"); 
-  background-position: center;
-  background-size: cover;
-}
-
-.bg-premium {
-  background: url("../images/subscribe_3.png");
-  background-position: center;
-  background-size: cover; 
-}
-
-.section-news {
-  max-width: 1240px;
-  padding-top: 100px;
-  padding-left: 50px;
-  text-align: center;
-}
-
-.section-news h2 {
-  margin-bottom: 48px;
-}
-
-.news-box {
-  display: flex;
-  gap: 50px;
-}
-
-.news-item {
-  text-align: start;
-}
-
-.news-author {
-  display: flex;
-  gap: 16px;
-  align-items: center;
-  margin-bottom: 48px;
-  margin-top: 16px;
-}
-
-
-.news-author p {
-  margin: 0;
-}
-
-
-button {
-  padding: 16px 30px;
-}
-
-.news-foto-1 {
-  margin-bottom: 65px;
-}
-
-.news-foto-2 {
-  margin-top: 83px;
-}
-.news-col {
-  margin-top: 0;
-}
-
-.app-section {
-  max-width: 1240px;
-  text-align: center; 
-  padding: 100px 20px;
-}

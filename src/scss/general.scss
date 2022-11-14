@@ -12,10 +12,8 @@ html {
     background: #08020d;
 }
 
-body {
-     
+body { 
     margin: 0;
-
 }
 
 h1 {
@@ -71,5 +69,6 @@ button {
 .container {
     max-width: 1240px;
     margin: 0 auto;
+    position: relative;
 }
  

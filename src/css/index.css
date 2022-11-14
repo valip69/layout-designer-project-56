@@ -69,6 +69,7 @@ button {
 .container {
   max-width: 1240px;
   margin: 0 auto;
+  position: relative;
 }
 
 .header {
@@ -98,7 +99,9 @@ button {
 }
 
 .header-button {
-  width: 248px;
+  display: inline-flex;
+  width: 100%;
+  max-width: 248px;
   background: #3C3B3D;
   border-radius: 50px;
   color: #757575;
@@ -107,7 +110,78 @@ button {
   text-align: start;
 }
 
+@media (max-width: 440px) {
+  .header {
+    /* padding-left: 20px;
+     padding-right: 20px;*/
+    position: relative;
+    display: grid;
+  }
+  .header-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .header-button {
+    margin-top: 15px;
+    /* display: inline-flex;
+     width: 100%;
+     left: 20px;
+     right: 20px;*/
+  }
+}
+.section-footer {
+  max-width: 1240px;
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.section-footer h2 {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.section-footer-sector-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 40px;
+  text-align: start;
+  padding: 3rem 20px;
+  border-bottom: 2px solid #cacaca;
+}
+
+.section-footer-block p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.section-footer-sector-2 {
+  padding: 2rem 20px;
+  display: flex;
+  gap: 16px;
+  font-size: 16px;
+}
+
+.section-footer-img {
+  padding-right: 24px;
+}
+
+@media (max-width: 440px) {
+  .section-footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section-footer-sector-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-footer-sector-2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .main-banner {
+  max-width: 1240px;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -141,11 +215,28 @@ button {
 }
 
 .main-button {
-  width: 570px;
+  width: 100%;
+  max-width: 570px;
   background: #34C176;
   border: none;
 }
 
+@media (max-width: 440px) {
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .main-banner {
+    padding: 80px 20px 0;
+  }
+  .main-block {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .section-pricing {
   max-width: 1240px;
   padding-top: 100px;
@@ -156,7 +247,7 @@ button {
 .section-pricing-cart {
   display: flex;
   gap: 45px;
-  justify-content: center;
+  /* justify-content: center;*/
   margin-bottom: 40px;
 }
 
@@ -165,11 +256,10 @@ button {
 }
 
 .pricing-item {
-  max-width: 368px;
+  max-width: 370px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 1rem;
-  border: 1px solid #cacaca;
   text-align: center;
 }
 
@@ -186,6 +276,12 @@ button {
   line-height: 150%;
   margin-left: 16px;
   vertical-align: text-top;
+}
+
+.pricing-footer {
+  font-size: 12.7px;
+  line-height: 19.2px;
+  padding: 64px 0;
 }
 
 .section-pricing-cart button {
@@ -210,6 +306,20 @@ button {
   background-size: cover;
 }
 
+@media (max-width: 440px) {
+  h2, h3 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .section-pricing {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section-pricing-cart {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .section-news {
   max-width: 1240px;
   padding-top: 100px;
@@ -258,34 +368,61 @@ button {
   margin-top: 0;
 }
 
+@media (max-width: 440px) {
+  h2, h3 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .section-news {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .news-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .news-foto-1 {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
 .app-section {
-  max-width: 1240px;
+  max-width: 1200px;
   text-align: center;
   padding: 100px 20px;
 }
 
-.section-footer {
-  max-width: 1240px;
-  background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%);
-}
-
-.section-footer-sector-1 {
+.app-fone {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 40px;
+  grid-template-columns: 50% 50%;
+}
+
+.app-fone-text {
   text-align: start;
-  padding: 60px 20px 70px;
-  border-bottom: 2px solid #cacaca;
+  font-size: 16px;
 }
 
-.section-footer-sector-2 {
-  padding: 40px 20px 50px;
-  display: flex;
-  gap: 16px;
+.app-fone-text button {
+  background: #95390C;
+  border-radius: 32px;
+  border: none;
+  font-size: 12.8px;
+  padding: 16px 40px;
 }
 
-.section-footer-img {
-  padding-right: 24px;
+@media (max-width: 440px) {
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .app-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .app-fone {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
