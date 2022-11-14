@@ -26,7 +26,6 @@
   } 
     
   .header-button {
-    display: inline-flex;
     width: 100%;
     max-width: 248px;
     background: #3C3B3D;
@@ -35,12 +34,11 @@
     padding: 5px 10px;
     border: none;
     text-align: start;
+    margin-left: -140px;
   }
 
   @media (max-width: $mobile) { 
     .header {
-     /* padding-left: 20px;
-      padding-right: 20px;*/
       position: relative;
       display: grid;  
     }
@@ -50,11 +48,9 @@
       flex-direction: column;
       gap: 0;
      }
+
      .header-button {
-     margin-top: 15px;
-     /* display: inline-flex;
-      width: 100%;
-      left: 20px;
-      right: 20px;*/
+     margin: 15px 0 0;
+     max-width: 354px;
      }
   }

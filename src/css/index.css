@@ -65,11 +65,17 @@ button {
     font-size: 18px;
     line-height: 27px;
   }
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 .container {
-  max-width: 1240px;
+  max-width: 1200px;
   margin: 0 auto;
   position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .header {
@@ -99,7 +105,6 @@ button {
 }
 
 .header-button {
-  display: inline-flex;
   width: 100%;
   max-width: 248px;
   background: #3C3B3D;
@@ -108,12 +113,11 @@ button {
   padding: 5px 10px;
   border: none;
   text-align: start;
+  margin-left: -140px;
 }
 
 @media (max-width: 440px) {
   .header {
-    /* padding-left: 20px;
-     padding-right: 20px;*/
     position: relative;
     display: grid;
   }
@@ -123,11 +127,8 @@ button {
     gap: 0;
   }
   .header-button {
-    margin-top: 15px;
-    /* display: inline-flex;
-     width: 100%;
-     left: 20px;
-     right: 20px;*/
+    margin: 15px 0 0;
+    max-width: 354px;
   }
 }
 .section-footer {
@@ -167,15 +168,7 @@ button {
 }
 
 @media (max-width: 440px) {
-  .section-footer {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .section-footer-sector-1 {
-    display: flex;
-    flex-direction: column;
-  }
-  .section-footer-sector-2 {
+  .dol {
     display: flex;
     flex-direction: column;
   }
@@ -222,10 +215,6 @@ button {
 }
 
 @media (max-width: 440px) {
-  h2 {
-    font-size: 18px;
-    line-height: 27px;
-  }
   p {
     font-size: 18px;
   }
