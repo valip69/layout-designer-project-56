@@ -1,5 +1,5 @@
 .main-banner {
-    max-width: 1240px;
+    max-width: 1200px;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
@@ -30,6 +30,9 @@
     border: 2px solid #cacaca;
     border-radius: 3px;
     background: none; 
+    font-size: 14px;
+    line-height: 16.4px;
+    font-weight: bold;
   }
 
   .main-button {
@@ -37,6 +40,9 @@
     max-width: 570px; 
     background: #34C176;
     border: none;
+    font-size: 13.3px;
+    line-height: 15.2px;
+
   }
   @media (max-width: $mobile) {
     p {
@@ -44,42 +50,42 @@
     }
     
     .main-banner {
-       padding: 80px 20px 0;
+       padding: 250px 20px 200px;
     }
     .main-block {
       display: flex;
       flex-direction: column;
+      gap: 0;
     }
      
   }
 
 
-.section-pricing {
-  max-width: 1240px;
-  padding-top: 100px;
-  padding-left: 50px;
-  text-align: center;
-}
+  .section-pricing {
+     max-width: 1200px;
+     padding-top: 100px;
+     padding-left: 50px;
+     text-align: center;
+  }
 
-.section-pricing-cart {
-   display: flex; 
-   gap: 45px;
-  /* justify-content: center;*/
-   margin-bottom: 40px;
-}
+  .section-pricing-cart {
+     display: flex; 
+     gap: 45px;
+     margin-bottom: 40px;
+  }
 
-.section-pricing-cart h3 {
-   margin-top: 24px;
-}
+  .section-pricing-cart h3 {
+     margin-top: 24px;
+  }
 
 
-.pricing-item {
-   max-width: 370px;
-   padding-left: 1.5rem;
-   padding-right: 1.5rem;
-   border-radius: 1rem;
-   text-align: center;
-}
+  .pricing-item {
+     max-width: 370px;
+     padding-left: 1.5rem;
+     padding-right: 1.5rem;
+     border-radius: 1rem;
+     text-align: center;
+  }
 
 .pricing-value {
    margin-top: 200px;
@@ -105,6 +111,8 @@
 
 .section-pricing-cart button {
   width: 100%;
+  font-size: 16px;
+  line-height: 24px;
 }
  
 
@@ -144,7 +152,7 @@
 }
 
 .section-news {
-  max-width: 1240px;
+  max-width: 1200px;
   padding-top: 100px;
   padding-left: 50px;
   text-align: center;
@@ -178,6 +186,8 @@
 
 
 button {
+  font-size: 12.8px;
+  line-height: 19.2px;
   padding: 16px 30px;
 }
 
@@ -193,11 +203,14 @@ button {
 }
 
 @media (max-width: $mobile) {
-  h2, h3 {
-      font-size: 18px;
-      line-height: 27px;
+  h3 {
+      font-size: 16px;
+      line-height: 24px;
   }
-  
+  p {
+    font-size: 16px;
+    line-height: 24px;
+  }
   .section-news {
     padding-left: 20px;
     padding-right: 20px;
@@ -209,7 +222,21 @@ button {
   .news-foto-1 {
     margin: 0 auto;
     width: 100%;
-  }    
+    padding-bottom: 50px;
+  } 
+  .index {
+    display: flex;
+    flex-direction: column;
+  }
+  .index-2 {
+    order: 2;
+  }
+  .index-3 {
+    order: 3;
+  } 
+  .news-foto-2 {
+    order: 1;
+  }        
 }
 
 .app-section {
@@ -228,7 +255,8 @@ button {
   font-size: 16px;
 }
 
-.app-fone-text button {
+.btn {
+  width: 130px;
   background: #95390C;
   border-radius: 32px;
   border: none;
@@ -237,10 +265,6 @@ button {
 }
 
 @media (max-width: $mobile) {
-  h2 {
-      font-size: 18px;
-      line-height: 27px;
-  }
   .app-section {
     padding-left: 20px;
     padding-right: 20px;

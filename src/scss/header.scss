@@ -6,8 +6,7 @@
     top: 25px; 
     font-size: 12.5px;
     line-height: 16.5px;
-    font-weight: 400;
-    right: 20px;
+    font-weight: 400;   
     left: 20px;
   }
   
@@ -22,7 +21,7 @@
   .header-menu {
     display: flex;
     gap: 24px;
-    margin-right: 451px;
+    margin-right: 420px;
   } 
     
   .header-button {
@@ -34,12 +33,10 @@
     padding: 5px 10px;
     border: none;
     text-align: start;
-    margin-left: -140px;
   }
 
   @media (max-width: $mobile) { 
     .header {
-      position: relative;
       display: grid;  
     }
     
@@ -51,6 +48,6 @@
 
      .header-button {
      margin: 15px 0 0;
-     max-width: 354px;
+     max-width: 374px;
      }
   }

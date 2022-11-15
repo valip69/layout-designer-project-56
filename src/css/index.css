@@ -65,17 +65,11 @@ button {
     font-size: 18px;
     line-height: 27px;
   }
-  .container {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .header {
@@ -87,7 +81,6 @@ button {
   font-size: 12.5px;
   line-height: 16.5px;
   font-weight: 400;
-  right: 20px;
   left: 20px;
 }
 
@@ -101,7 +94,7 @@ button {
 .header-menu {
   display: flex;
   gap: 24px;
-  margin-right: 451px;
+  margin-right: 420px;
 }
 
 .header-button {
@@ -113,12 +106,10 @@ button {
   padding: 5px 10px;
   border: none;
   text-align: start;
-  margin-left: -140px;
 }
 
 @media (max-width: 440px) {
   .header {
-    position: relative;
     display: grid;
   }
   .header-menu {
@@ -128,7 +119,7 @@ button {
   }
   .header-button {
     margin: 15px 0 0;
-    max-width: 354px;
+    max-width: 374px;
   }
 }
 .section-footer {
@@ -150,7 +141,7 @@ button {
   border-bottom: 2px solid #cacaca;
 }
 
-.section-footer-block p {
+.section-footer-block a {
   margin: 0;
   font-size: 16px;
   line-height: 24px;
@@ -174,7 +165,7 @@ button {
   }
 }
 .main-banner {
-  max-width: 1240px;
+  max-width: 1200px;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -205,6 +196,9 @@ button {
   border: 2px solid #cacaca;
   border-radius: 3px;
   background: none;
+  font-size: 14px;
+  line-height: 16.4px;
+  font-weight: bold;
 }
 
 .main-button {
@@ -212,6 +206,8 @@ button {
   max-width: 570px;
   background: #34C176;
   border: none;
+  font-size: 13.3px;
+  line-height: 15.2px;
 }
 
 @media (max-width: 440px) {
@@ -219,15 +215,16 @@ button {
     font-size: 18px;
   }
   .main-banner {
-    padding: 80px 20px 0;
+    padding: 250px 20px 200px;
   }
   .main-block {
     display: flex;
     flex-direction: column;
+    gap: 0;
   }
 }
 .section-pricing {
-  max-width: 1240px;
+  max-width: 1200px;
   padding-top: 100px;
   padding-left: 50px;
   text-align: center;
@@ -236,7 +233,6 @@ button {
 .section-pricing-cart {
   display: flex;
   gap: 45px;
-  /* justify-content: center;*/
   margin-bottom: 40px;
 }
 
@@ -275,6 +271,8 @@ button {
 
 .section-pricing-cart button {
   width: 100%;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .bg-free {
@@ -310,7 +308,7 @@ button {
   }
 }
 .section-news {
-  max-width: 1240px;
+  max-width: 1200px;
   padding-top: 100px;
   padding-left: 50px;
   text-align: center;
@@ -342,6 +340,8 @@ button {
 }
 
 button {
+  font-size: 12.8px;
+  line-height: 19.2px;
   padding: 16px 30px;
 }
 
@@ -358,9 +358,13 @@ button {
 }
 
 @media (max-width: 440px) {
-  h2, h3 {
-    font-size: 18px;
-    line-height: 27px;
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 24px;
   }
   .section-news {
     padding-left: 20px;
@@ -373,6 +377,20 @@ button {
   .news-foto-1 {
     margin: 0 auto;
     width: 100%;
+    padding-bottom: 50px;
+  }
+  .index {
+    display: flex;
+    flex-direction: column;
+  }
+  .index-2 {
+    order: 2;
+  }
+  .index-3 {
+    order: 3;
+  }
+  .news-foto-2 {
+    order: 1;
   }
 }
 .app-section {
@@ -391,7 +409,8 @@ button {
   font-size: 16px;
 }
 
-.app-fone-text button {
+.btn {
+  width: 130px;
   background: #95390C;
   border-radius: 32px;
   border: none;
@@ -400,10 +419,6 @@ button {
 }
 
 @media (max-width: 440px) {
-  h2 {
-    font-size: 18px;
-    line-height: 27px;
-  }
   .app-section {
     padding-left: 20px;
     padding-right: 20px;
@@ -412,6 +427,147 @@ button {
     display: flex;
     flex-direction: column-reverse;
   }
+}
+.main {
+  max-width: 1200px;
+  /* padding-top: 200px;
+   padding-bottom: 200px;*/
+  padding: 200px 20px;
+  /* text-align: center;*/
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.main h1 {
+  margin: 0;
+}
+
+.main-btn {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.main-form {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-width: 200px;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12.8px;
+  line-height: 16.4px;
+  text-transform: capitalize;
+}
+
+.btn-blue {
+  background: #5328A1;
+}
+
+.btn-orange {
+  background: #95390C;
+}
+
+.icon-bt {
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+}
+
+@media (max-width: 440px) {
+  .main {
+    padding: 225px 20px 224px;
+  }
+  .main-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 48px;
+    width: 200px;
+  }
+}
+.section-track {
+  max-width: 1200px;
+  padding-top: 100px;
+  padding-left: 20px;
+}
+
+.section-track-box {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 25px 50px;
+}
+
+.popular-track {
+  display: flex;
+  align-items: center;
+  /*gap: 15px;*/
+  /*  justify-content: space-between;*/
+}
+
+.track-info {
+  padding-left: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section-track img {
+  width: 55px;
+  height: 55px;
+}
+
+.section-track h3 {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: bold;
+}
+
+.section-track p {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  margin: 0;
+}
+
+.taem {
+  text-align: end;
+}
+
+.pricing-item {
+  /* max-width: 370px;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      border-radius: 1rem;
+      text-align: center;
+   }
+
+  .pricing-value {
+    margin-top: 200px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1em;
+
+  }
+
+  .pricing-value span {
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 150%;
+   margin-left: 16px; 
+   vertical-align: text-top; 
+  }
+
+  .pricing-footer {
+   font-size: 12.7px;
+   line-height: 19.2px;
+   padding: 64px 0;
+  }
+
+  .section-pricing-cart button {
+   width: 100%;
+   font-size: 16px;
+   line-height: 24px;*/
 }
 
 /*# sourceMappingURL=index.css.map */
