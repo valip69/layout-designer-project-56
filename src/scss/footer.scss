@@ -1,12 +1,13 @@
 .section-footer {
-    max-width: 1240px;
     background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%); 
 }
 
 
 .section-footer h2 {
     font-size: 18px;
-    line-height: 27px;  
+    line-height: 27px;
+    font-weight: bold; 
+    text-transform: capitalize; 
 }
 
 
@@ -34,7 +35,7 @@
 }
 
 .section-footer-img {
-    padding-right: 24px;
+  padding-right: 24px;  
 }
 
 @media (max-width: $mobile) {
@@ -44,3 +45,4 @@
     } 
       
 }
+ 

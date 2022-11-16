@@ -13,9 +13,8 @@ html {
 
 body { 
     background: #08020d;
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
+    margin: 0;
+    
 }
 
 h1 {
@@ -69,8 +68,12 @@ button {
     }
 }
 .container {
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
     position: relative;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
 }
  
