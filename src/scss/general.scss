@@ -9,11 +9,13 @@ html {
     font-size: 18px;
     line-height: 1.5;
     color: #cacaca;
-    background: #08020d;
 }
 
 body { 
-    margin: 0;
+    background: #08020d;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -64,7 +66,7 @@ button {
     h2 {
         font-size: 18px;
         line-height: 27px;
-    }   
+    }
 }
 .container {
     max-width: 1200px;

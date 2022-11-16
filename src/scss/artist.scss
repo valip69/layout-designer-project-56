@@ -1,9 +1,6 @@
 .main {
     max-width: 1200px;
-   /* padding-top: 200px;
-    padding-bottom: 200px;*/
-    padding: 200px 20px;
-   /* text-align: center;*/
+    padding: 200px 0; 
     background-image: url("../images/Morten Harket.png");
     background-position: center;
     background-size: cover;
@@ -17,6 +14,7 @@
   .main-btn {
     display: flex;
     gap: 1.5rem;
+    margin: 0;
   }
 
   .main-form {  
@@ -33,10 +31,12 @@
   }
   .btn-blue {
     background: #5328A1; 
+    margin: 0;
   }
 
   .btn-orange {
-    background: #95390C; 
+    background: #95390C;
+    margin: 0; 
   }
   .icon-bt {   
     width: 20px;
@@ -46,7 +46,7 @@
 
   @media (max-width: $mobile) {
     .main {
-       padding: 225px 20px 224px;
+       padding: 225px 20px;
     }
     .main-btn {
       display: flex;
@@ -61,30 +61,25 @@
 
   .section-track {
     max-width: 1200px;
-    padding-top: 100px;
-    padding-left: 20px;
-     
+    padding-top: 100px;  
  }
 
  .section-track-box {
     display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 25px 50px;
+     
+    
 }
 
 .popular-track {
-    display: flex;
+    display: grid;
+    grid-template-columns: 70px auto min-content;
     align-items: center;
-     /*gap: 15px;*/
-   /*  justify-content: space-between;*/
-
+    
  }
- .track-info {
-    padding-left: 15px;
-     display: grid;
-     grid-template-columns: repeat(2, 1fr);
- }
+   
+  
  .section-track img {
     width: 55px;
     height: 55px;
@@ -105,44 +100,124 @@
     margin: 0;
      
  }
- .taem {
-    text-align: end;
+
+ @media (max-width: $mobile) {
+  .section-track {
+     padding: 100px 20px 0;
+  }
+  .section-track-box {
+     display: flex;
+     flex-direction: column;
+   }
+    
+   
+}
+  
+ 
+ .section-discography {
+  width: 100%;
+  max-width: 1200px;
+  padding-top: 100px;
  }
+
+ .section-discography h2 {
+  margin-bottom: 48px;
+ }
+
+ .discography-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px 50px;
+ }
+
+ .discography-item img {
+  width: 250px;
+  height: 250px;
+   
+} 
+
+.discography-item p {
+  font-size: 16px;
+  line-height: 24px;
+}
+ 
+.discography-info h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 18px;
+}
+
+@media (max-width: $mobile) {
+  .section-discography {
+     padding: 100px 20px 0;
+  }
+  .discography-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px 50px;
+   }
+   .discography-item img {
+    width: 137px;
+    height: 137px;
+     
+  } 
+   
+}
+
+.similar-section {
+  width: 100%;
+  max-width: 1200px;
+  padding-top: 100px;
+  margin-bottom: 100px;
+ }
+ .similar-section h2 {
+ /* margin-bottom: 48px;*/
+ }
+
+ .similar-fone {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px 50px;
+ }
+
+ .similar-item img {
+  width: 250px;
+  height: 250px;
+   
+} 
+
+.similar-info h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 18px;
+}
+
+.similar-item p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (max-width: $mobile) {
+  .similar-section {
+     padding: 100px 20px 0;
+  }
+  .similar-fone {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px 50px;
+   }
+   .similar-item img {
+    width: 137px;
+    height: 137px;
+     
+  } 
+   
+}
+
 
  
-
- .pricing-item {
-   /* max-width: 370px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    border-radius: 1rem;
-    text-align: center;
- }
-
-.pricing-value {
-  margin-top: 200px;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 1em;
-  
-}
-
-.pricing-value span {
- font-weight: 400;
- font-size: 32px;
- line-height: 150%;
- margin-left: 16px; 
- vertical-align: text-top; 
-}
-
-.pricing-footer {
- font-size: 12.7px;
- line-height: 19.2px;
- padding: 64px 0;
-}
-
-.section-pricing-cart button {
- width: 100%;
- font-size: 16px;
- line-height: 24px;*/
-}
+ 
