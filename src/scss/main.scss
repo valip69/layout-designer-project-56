@@ -209,13 +209,28 @@
   margin-top: 83px;
   margin-bottom: 0;
 }
+
+
 .news-col {
   margin-top: 0;
 }
 
+.news-clr {
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #F89202;
+}
+
+.news-data {
+  font-size: 12.8px;
+  line-height: 150%; 
+}
+
+
 @media (max-width: $mobile) {
   h3 {
-      font-size: 16px;
+     /* font-size: 16px;
       line-height: 24px;
   }
   p {
@@ -246,7 +261,7 @@
     order: 3;
   } 
   .news-foto-2 {
-    order: 1;
+    order: 1;*/
   }        
 }
 

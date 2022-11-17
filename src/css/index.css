@@ -85,7 +85,7 @@ button {
   width: 100%;
   max-width: 1200px;
   top: 25px;
-  font-size: 12.5px;
+  font-size: 12px;
   line-height: 16.5px;
   font-weight: 400;
   left: 50%;
@@ -129,6 +129,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 0;
+    margin-top: 17px;
   }
   .header-button {
     margin: 15px 0 0;
@@ -381,40 +382,52 @@ button {
   margin-top: 0;
 }
 
+.news-clr {
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #F89202;
+}
+
+.news-data {
+  font-size: 12.8px;
+  line-height: 150%;
+}
+
 @media (max-width: 440px) {
   h3 {
-    font-size: 16px;
-    line-height: 24px;
-  }
-  p {
-    font-size: 15.6px;
-    line-height: 24px;
-  }
-  .section-news {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .news-box {
-    display: flex;
-    flex-direction: column;
-  }
-  .news-foto-1 {
-    margin: 0 auto;
-    width: 100%;
-    padding-bottom: 50px;
-  }
-  .index {
-    display: flex;
-    flex-direction: column;
-  }
-  .index-2 {
-    order: 2;
-  }
-  .index-3 {
-    order: 3;
-  }
-  .news-foto-2 {
-    order: 1;
+    /* font-size: 16px;
+        line-height: 24px;
+    }
+    p {
+      font-size: 15.6px;
+      line-height: 24px;
+    }
+    .section-news {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .news-box {
+      display: flex;
+      flex-direction: column;
+    }
+    .news-foto-1 {
+      margin: 0 auto;
+      width: 100%;
+      padding-bottom: 50px;
+    } 
+    .index {
+      display: flex;
+      flex-direction: column;
+    }
+    .index-2 {
+      order: 2;
+    }
+    .index-3 {
+      order: 3;
+    } 
+    .news-foto-2 {
+      order: 1;*/
   }
 }
 .app-section {
@@ -464,7 +477,7 @@ button {
 .section-description-btn {
   display: flex;
   gap: 1.5rem;
-  margin: 0;
+  margin: 48px 0 0;
 }
 .section-description-form {
   display: flex;
@@ -513,6 +526,7 @@ button {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 25px 50px;
+  margin-top: 48px;
 }
 
 .popular-track {
@@ -569,6 +583,7 @@ button {
 .discography-item p {
   font-size: 16px;
   line-height: 24px;
+  margin: 0;
 }
 
 .discography-info h3 {
@@ -596,10 +611,11 @@ button {
 .similar-section {
   padding-top: 100px;
   margin-bottom: 100px;
+  text-align: center;
 }
 
 .similar-section h2 {
-  /* margin-bottom: 48px;*/
+  margin-bottom: 48px;
 }
 
 .similar-fone {
@@ -624,6 +640,7 @@ button {
 .similar-item p {
   font-size: 16px;
   line-height: 24px;
+  margin: 0;
 }
 
 @media (max-width: 440px) {
