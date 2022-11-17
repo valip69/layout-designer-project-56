@@ -17,14 +17,16 @@
     display: flex;
     align-items: center;
     gap: 16px;
-    margin-right: 74px;
+    margin-right: 75px;
   }
-
+  .header-icon p {
+    margin: 0;
+  }
 
   .header-menu {
     display: flex;
     gap: 24px;
-    margin-right: 471px;
+    margin-right: 446px;
   } 
     
   .header-button {

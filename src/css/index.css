@@ -27,6 +27,7 @@ h2 {
   line-height: 57px;
   font-weight: bold;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 h3 {
@@ -95,13 +96,17 @@ button {
   display: flex;
   align-items: center;
   gap: 16px;
-  margin-right: 74px;
+  margin-right: 75px;
+}
+
+.header-icon p {
+  margin: 0;
 }
 
 .header-menu {
   display: flex;
   gap: 24px;
-  margin-right: 471px;
+  margin-right: 446px;
 }
 
 .header-button {
@@ -175,8 +180,8 @@ button {
   }
 }
 .main-banner {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 198px;
+  padding-bottom: 198px;
   text-align: center;
   background-image: url("../images/banner.png");
   background-position: center;
@@ -238,10 +243,16 @@ button {
   text-align: center;
 }
 
+.section-pricing h2 {
+  margin-top: 0;
+}
+
 .section-pricing-cart {
   display: flex;
   gap: 45px;
+  margin-top: 45px;
   margin-bottom: 40px;
+  max-height: 615px;
 }
 
 .section-pricing-cart h3 {
@@ -258,6 +269,7 @@ button {
 
 .pricing-value {
   margin-top: 200px;
+  margin-bottom: 40px;
   font-weight: 400;
   font-size: 64px;
   line-height: 1em;
@@ -274,13 +286,17 @@ button {
 .pricing-footer {
   font-size: 12.7px;
   line-height: 19.2px;
-  padding: 64px 0;
+  margin: 64px 0;
 }
 
 .section-pricing-cart button {
   width: 100%;
   font-size: 16px;
   line-height: 24px;
+}
+
+.text {
+  margin-bottom: 0;
 }
 
 .bg-free {
@@ -317,12 +333,12 @@ button {
 }
 .section-news {
   padding-top: 100px;
-  padding-left: 50px;
   text-align: center;
 }
 
 .section-news h2 {
   margin-bottom: 48px;
+  margin-top: 0;
 }
 
 .news-box {
@@ -346,7 +362,7 @@ button {
   margin: 0;
 }
 
-button {
+.bot {
   font-size: 12.8px;
   line-height: 19.2px;
   padding: 16px 30px;
@@ -358,6 +374,7 @@ button {
 
 .news-foto-2 {
   margin-top: 83px;
+  margin-bottom: 0;
 }
 
 .news-col {
@@ -370,7 +387,7 @@ button {
     line-height: 24px;
   }
   p {
-    font-size: 16px;
+    font-size: 15.6px;
     line-height: 24px;
   }
   .section-news {
@@ -402,12 +419,13 @@ button {
 }
 .app-section {
   text-align: center;
-  padding: 100px 20px;
+  padding: 97px 0;
 }
 
 .app-fone {
   display: grid;
   grid-template-columns: 50% 50%;
+  margin-top: 48px;
 }
 
 .app-fone-text {

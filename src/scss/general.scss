@@ -28,7 +28,8 @@ h2 {
    font-size: 38px;
    line-height: 57px;
    font-weight: bold;
-   text-transform: uppercase; 
+   text-transform: uppercase;
+   margin-top: 0; 
 }
 
 h3 {
@@ -65,7 +66,7 @@ button {
     h2 {
         font-size: 18px;
         line-height: 27px;
-    }
+    } 
 }
 .container {
     max-width: 1440px;
