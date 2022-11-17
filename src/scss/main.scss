@@ -40,7 +40,8 @@
     background: #34C176;
     border: none;
     font-size: 13.3px;
-    line-height: 15.2px;
+    line-height: 15.29px;
+    text-transform: uppercase;
 
   }
   @media (max-width: $mobile) {
@@ -61,9 +62,7 @@
 
 
   .section-pricing {
-     max-width: 1200px;
      padding-top: 100px;
-     padding-left: 50px;
      text-align: center;
   }
 
@@ -151,7 +150,6 @@
 }
 
 .section-news {
-  max-width: 1200px;
   padding-top: 100px;
   padding-left: 50px;
   text-align: center;
@@ -239,7 +237,6 @@ button {
 }
 
 .app-section {
-  max-width: 1200px;
   text-align: center; 
   padding: 100px 20px;
 }

@@ -147,7 +147,7 @@ button {
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 40px;
   text-align: start;
-  padding: 3rem 20px;
+  padding: 3rem 0;
   border-bottom: 2px solid #cacaca;
 }
 
@@ -158,7 +158,7 @@ button {
 }
 
 .section-footer-sector-2 {
-  padding: 2rem 20px;
+  padding: 2rem 0;
   display: flex;
   gap: 16px;
   font-size: 16px;
@@ -216,7 +216,8 @@ button {
   background: #34C176;
   border: none;
   font-size: 13.3px;
-  line-height: 15.2px;
+  line-height: 15.29px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 440px) {
@@ -233,9 +234,7 @@ button {
   }
 }
 .section-pricing {
-  max-width: 1200px;
   padding-top: 100px;
-  padding-left: 50px;
   text-align: center;
 }
 
@@ -317,7 +316,6 @@ button {
   }
 }
 .section-news {
-  max-width: 1200px;
   padding-top: 100px;
   padding-left: 50px;
   text-align: center;
@@ -403,7 +401,6 @@ button {
   }
 }
 .app-section {
-  max-width: 1200px;
   text-align: center;
   padding: 100px 20px;
 }
@@ -437,40 +434,21 @@ button {
     flex-direction: column-reverse;
   }
 }
-.main {
+.section-description {
   padding: 200px 0;
   background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
 }
-.main h1 {
+.section-description h1 {
   margin: 0;
 }
-.main-btn {
-  /* display: flex;
-   gap: 1.5rem;
-   margin: 0;*/
-}
-.main-form {
-  /* display: flex;
-   align-items: center;
-   gap: 16px;
-   min-width: 200px;
-   padding: 20px 30px;
-   border: none; 
-   border-radius: 5px; 
-   font-size: 12.8px;
-   line-height: 16.4px;
-   text-transform: capitalize; */
-}
-
-.main-btn {
+.section-description-btn {
   display: flex;
   gap: 1.5rem;
   margin: 0;
 }
-
-.main-form {
+.section-description-form {
   display: flex;
   align-items: center;
   gap: 16px;
@@ -499,13 +477,12 @@ button {
 }
 
 @media (max-width: 440px) {
-  .main {
+  .section-description {
     padding: 225px 20px;
   }
-  .main-btn {
+  .section-description-btn {
     display: flex;
     flex-direction: column;
-    gap: 0;
     margin-top: 48px;
     width: 200px;
   }
