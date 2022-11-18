@@ -22,6 +22,7 @@ h1 {
     line-height: 90px;
     font-weight: bold;
     text-transform: uppercase; 
+    color: #FFFFFF;
 }
 
 h2 {
@@ -30,6 +31,7 @@ h2 {
    font-weight: bold;
    text-transform: uppercase;
    margin-top: 0; 
+   color: #FFFFFF;
 }
 
 h3 {
@@ -38,6 +40,7 @@ h3 {
     font-weight: 400;
     text-transform: uppercase; 
     margin: 0; 
+    color: #FFFFFF;
 }
 
 
@@ -80,9 +83,8 @@ button {
 
 .wrapper {
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 
-.wrapper-center {
-    margin: 0 auto;   
-}
+ 

@@ -32,16 +32,26 @@
     font-size: 14px;
     line-height: 16.4px;
     font-weight: bold;
+    color: #FFF;
+    &::placeholder {
+      color: #FFF;
+    }
   }
 
+
+  .main-banner p {
+    color: #FFF;
+  }
   .main-button {
     width: 100%;
     max-width: 570px; 
     background: #34C176;
     border: none;
     font-size: 13.3px;
-    line-height: 15.29px;
+    line-height: 15px;
     text-transform: uppercase;
+    color: #FFF;
+
   }
   @media (max-width: $mobile) {
      .main-banner p {
@@ -65,6 +75,7 @@
   .section-pricing {
      padding-top: 100px;
      text-align: center;
+     color: #FFF;
   }
 
 
@@ -109,7 +120,7 @@
   line-height: 150%;
   text-transform: uppercase;
   margin-left: 16px; 
-  vertical-align: text-top; 
+  vertical-align: top; 
 }
 
 .pricing-footer {
@@ -123,6 +134,7 @@
   font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
+  color: #FFF;
 }
 
 .text {
@@ -216,6 +228,7 @@
   font-size: 12.8px;
   line-height: 19.2px;
   padding: 16px 30px;
+  border: 1px solid #cacaca;
 }
 
 .news-foto-1 {
@@ -298,16 +311,22 @@
   text-align: start;
   font-size: 16px;
   line-height: 24px;
+  margin: 0 0 16px;
 }
+ .app-fone-btn-wrapper {
+  text-align: left;
+ }
 
-
-.btn {
+.app-fone-btn {
   width: 130px;
   background: #95390C;
   border-radius: 32px;
   border: none;
   font-size: 12.8px;
   padding: 16px 40px;
+  color: #FFF;
+  display: inline-block;
+   
 }
 
 @media (max-width: $mobile) {

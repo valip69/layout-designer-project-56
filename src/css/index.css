@@ -20,6 +20,7 @@ h1 {
   line-height: 90px;
   font-weight: bold;
   text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 h2 {
@@ -28,6 +29,7 @@ h2 {
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 0;
+  color: #FFFFFF;
 }
 
 h3 {
@@ -36,6 +38,7 @@ h3 {
   font-weight: 400;
   text-transform: uppercase;
   margin: 0;
+  color: #FFFFFF;
 }
 
 a {
@@ -75,9 +78,6 @@ button {
 
 .wrapper {
   max-width: 1200px;
-}
-
-.wrapper-center {
   margin: 0 auto;
 }
 
@@ -227,6 +227,14 @@ button {
   font-size: 14px;
   line-height: 16.4px;
   font-weight: bold;
+  color: #FFF;
+}
+.main-form::placeholder {
+  color: #FFF;
+}
+
+.main-banner p {
+  color: #FFF;
 }
 
 .main-button {
@@ -235,8 +243,9 @@ button {
   background: #34C176;
   border: none;
   font-size: 13.3px;
-  line-height: 15.29px;
+  line-height: 15px;
   text-transform: uppercase;
+  color: #FFF;
 }
 
 @media (max-width: 440px) {
@@ -258,6 +267,7 @@ button {
 .section-pricing {
   padding-top: 100px;
   text-align: center;
+  color: #FFF;
 }
 
 .section-pricing h2 {
@@ -298,7 +308,7 @@ button {
   line-height: 150%;
   text-transform: uppercase;
   margin-left: 16px;
-  vertical-align: text-top;
+  vertical-align: top;
 }
 
 .pricing-footer {
@@ -312,6 +322,7 @@ button {
   font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
+  color: #FFF;
 }
 
 .text {
@@ -395,6 +406,7 @@ button {
   font-size: 12.8px;
   line-height: 19.2px;
   padding: 16px 30px;
+  border: 1px solid #cacaca;
 }
 
 .news-foto-1 {
@@ -474,15 +486,22 @@ button {
   text-align: start;
   font-size: 16px;
   line-height: 24px;
+  margin: 0 0 16px;
 }
 
-.btn {
+.app-fone-btn-wrapper {
+  text-align: left;
+}
+
+.app-fone-btn {
   width: 130px;
   background: #95390C;
   border-radius: 32px;
   border: none;
   font-size: 12.8px;
   padding: 16px 40px;
+  color: #FFF;
+  display: inline-block;
 }
 
 @media (max-width: 440px) {
