@@ -5,7 +5,7 @@
 
 html {
   font-family: Roboto, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   color: #cacaca;
 }
@@ -75,6 +75,9 @@ button {
 
 .wrapper {
   max-width: 1200px;
+}
+
+.wrapper-center {
   margin: 0 auto;
 }
 
@@ -85,9 +88,10 @@ button {
   width: 100%;
   max-width: 1200px;
   top: 25px;
-  font-size: 12px;
-  line-height: 16.5px;
+  font-size: 11px;
+  line-height: 16px;
   font-weight: 400;
+  text-transform: uppercase;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -96,7 +100,7 @@ button {
   display: flex;
   align-items: center;
   gap: 16px;
-  margin-right: 75px;
+  margin-right: 70px;
 }
 
 .header-icon p {
@@ -106,7 +110,7 @@ button {
 .header-menu {
   display: flex;
   gap: 24px;
-  margin-right: 446px;
+  margin-right: 444px;
 }
 
 .header-button {
@@ -115,6 +119,7 @@ button {
   background: #3C3B3D;
   border-radius: 50px;
   color: #757575;
+  text-transform: uppercase;
   padding: 5px 10px;
   border: none;
   text-align: start;
@@ -130,6 +135,14 @@ button {
     flex-direction: column;
     gap: 0;
     margin-top: 17px;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 700;
+  }
+  .header-icon {
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 700;
   }
   .header-button {
     margin: 15px 0 0;
@@ -227,16 +240,19 @@ button {
 }
 
 @media (max-width: 440px) {
-  p {
-    font-size: 18px;
+  .main-banner p {
+    letter-spacing: -0.3px;
   }
   .main-banner {
-    padding: 250px 20px 200px;
+    padding: 235px 20px 200px;
   }
   .main-block {
     display: flex;
     flex-direction: column;
     gap: 0;
+  }
+  .main-form {
+    margin-bottom: 1.4rem;
   }
 }
 .section-pricing {
@@ -253,7 +269,7 @@ button {
   gap: 45px;
   margin-top: 45px;
   margin-bottom: 40px;
-  max-height: 615px;
+  /* max-height: 615px;*/
 }
 
 .section-pricing-cart h3 {
@@ -280,12 +296,13 @@ button {
   font-weight: 400;
   font-size: 32px;
   line-height: 150%;
+  text-transform: uppercase;
   margin-left: 16px;
   vertical-align: text-top;
 }
 
 .pricing-footer {
-  font-size: 12.7px;
+  font-size: 12.8px;
   line-height: 19.2px;
   margin: 64px 0;
 }
@@ -294,6 +311,7 @@ button {
   width: 100%;
   font-size: 16px;
   line-height: 24px;
+  text-transform: uppercase;
 }
 
 .text {
@@ -319,7 +337,7 @@ button {
 }
 
 @media (max-width: 440px) {
-  h2, h3 {
+  h3 {
     font-size: 18px;
     line-height: 27px;
   }
@@ -330,6 +348,12 @@ button {
   .section-pricing-cart {
     display: flex;
     flex-direction: column;
+  }
+  .section-pricing-cart h3 {
+    margin-top: 16px;
+  }
+  .pricing-footer {
+    letter-spacing: -0.3px;
   }
 }
 .section-news {
@@ -345,6 +369,10 @@ button {
 .news-box {
   display: flex;
   gap: 50px;
+}
+
+.news-body h3 {
+  text-transform: none;
 }
 
 .news-item {
@@ -395,44 +423,45 @@ button {
 }
 
 @media (max-width: 440px) {
-  h3 {
-    /* font-size: 16px;
-        line-height: 24px;
-    }
-    p {
-      font-size: 15.6px;
-      line-height: 24px;
-    }
-    .section-news {
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-    .news-box {
-      display: flex;
-      flex-direction: column;
-    }
-    .news-foto-1 {
-      margin: 0 auto;
-      width: 100%;
-      padding-bottom: 50px;
-    } 
-    .index {
-      display: flex;
-      flex-direction: column;
-    }
-    .index-2 {
-      order: 2;
-    }
-    .index-3 {
-      order: 3;
-    } 
-    .news-foto-2 {
-      order: 1;*/
+  .news-body h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  p {
+    font-size: 15.6px;
+    line-height: 24px;
+  }
+  .section-news {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .news-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .news-foto-1 {
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .index {
+    display: flex;
+    flex-direction: column;
+  }
+  .index-2 {
+    order: 2;
+  }
+  .index-3 {
+    order: 3;
+  }
+  .news-foto-2 {
+    order: 1;
   }
 }
 .app-section {
   text-align: center;
-  padding: 97px 0;
+  padding: 100px 0 0;
+  margin-bottom: 100px;
 }
 
 .app-fone {
@@ -441,9 +470,10 @@ button {
   margin-top: 48px;
 }
 
-.app-fone-text {
+.app-fone-text p {
   text-align: start;
   font-size: 16px;
+  line-height: 24px;
 }
 
 .btn {
@@ -460,9 +490,15 @@ button {
     padding-left: 20px;
     padding-right: 20px;
   }
+  .app-section h2 {
+    margin-bottom: 50px;
+  }
   .app-fone {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .app-fone-text p {
+    letter-spacing: -0.5px;
   }
 }
 .section-description {
