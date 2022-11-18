@@ -277,10 +277,10 @@ button {
 }
 
 .section-pricing-cart {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 50px;
   margin-bottom: 43px;
-  /* max-height: 615px;*/
 }
 
 .section-pricing-cart h3 {
@@ -290,7 +290,6 @@ button {
 }
 
 .pricing-item {
-  max-width: 370px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 1rem;
