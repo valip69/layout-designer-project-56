@@ -285,6 +285,8 @@ button {
 
 .section-pricing-cart h3 {
   margin-top: 24px;
+  font-size: 24px;
+  line-height: 36px;
 }
 
 .pricing-item {
