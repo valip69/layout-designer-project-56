@@ -4,7 +4,7 @@
     background-position: center;
     background-size: cover;
     h1 {
-      margin: 0;
+      margin-bottom: 0;
     }
     &-btn {
       display: flex;
@@ -20,20 +20,16 @@
       border: none; 
       border-radius: 5px; 
       font-size: 12.8px;
-      line-height: 16.4px;
-      text-transform: capitalize; 
     }
   }
    
 
   .btn-blue {
     background: #5328A1; 
-    margin: 0;
   }
 
   .btn-orange {
-    background: #95390C;
-    margin: 0; 
+    background: #95390C; 
   }
   .icon-bt {   
     width: 20px;
@@ -137,7 +133,7 @@
   font-size: 18px;
   line-height: 27px;
   font-weight: bold;
-  text-transform: capitalize;
+  text-transform: none;
   margin-top: 18px;
 }
 
@@ -167,6 +163,7 @@
 
  .similar-section h2 {
   margin-bottom: 48px;
+  text-align: start;
  }
 
  .similar-fone {

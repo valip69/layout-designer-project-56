@@ -41,6 +41,8 @@
 
   .main-banner p {
     color: #FFF;
+    font-size: 16px;
+    line-height: 24px;
   }
   .main-button {
     width: 100%;
@@ -55,11 +57,11 @@
   }
   @media (max-width: $mobile) {
      .main-banner p {
-      letter-spacing: -0.3px;
+      letter-spacing: -0.2px;
     }
     
     .main-banner {
-       padding: 235px 20px 200px;
+       padding-top: 250px;
     }
     .main-block {
       display: flex;
@@ -181,6 +183,8 @@
   }
 
   .section-pricing-cart h3 {
+    font-size: 16px;
+    line-height: 24px; 
     margin-top: 16px;
  }
 
@@ -203,7 +207,8 @@
 }
 
 .news-box {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 50px;
 }
 .news-body h3 {
@@ -266,7 +271,7 @@
       font-size: 16px;
       line-height: 24px;
   }
-  p {
+   .news-item p {
     font-size: 15.6px;
     line-height: 24px;
   }
@@ -300,7 +305,7 @@
 
 .app-section {
   text-align: center; 
-  padding: 100px 0 0;
+  padding-top: 100px;
   margin-bottom: 100px;
 }
 
