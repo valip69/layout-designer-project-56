@@ -568,9 +568,6 @@ button {
 }
 
 @media (max-width: 440px) {
-  .section-description {
-    padding: 200px 20px;
-  }
   .section-description-btn {
     display: flex;
     flex-direction: column;
@@ -584,7 +581,7 @@ button {
 
 .section-track-box {
   display: grid;
-  grid-template-columns: repeat(2, 55px);
+  grid-template-columns: repeat(2, auto);
   grid-gap: 25px 50px;
   margin-top: 48px;
 }
@@ -651,7 +648,7 @@ button {
   line-height: 27px;
   font-weight: bold;
   text-transform: none;
-  margin-top: 18px;
+  margin-top: 11px;
 }
 
 @media (max-width: 440px) {
@@ -698,7 +695,7 @@ button {
   line-height: 27px;
   font-weight: bold;
   text-transform: capitalize;
-  margin-top: 18px;
+  margin-top: 11px;
 }
 
 .similar-item p {
