@@ -530,7 +530,7 @@ button {
   }
 }
 .section-description {
-  padding: 200px 0;
+  padding: 200px 0 220px;
   background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
@@ -569,7 +569,7 @@ button {
 
 @media (max-width: 440px) {
   .section-description {
-    padding: 225px 20px;
+    padding: 200px 20px;
   }
   .section-description-btn {
     display: flex;
@@ -584,7 +584,7 @@ button {
 
 .section-track-box {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 55px);
   grid-gap: 25px 50px;
   margin-top: 48px;
 }
@@ -631,7 +631,7 @@ button {
 
 .discography-box {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 250px);
   grid-gap: 25px 50px;
 }
 
@@ -660,12 +660,15 @@ button {
   }
   .discography-box {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 137px);
     grid-gap: 25px 50px;
   }
   .discography-item img {
     width: 137px;
     height: 137px;
+  }
+  .discography-info h3 {
+    letter-spacing: -0.1px;
   }
 }
 .similar-section {
@@ -681,7 +684,7 @@ button {
 
 .similar-fone {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 250px);
   grid-gap: 25px 50px;
 }
 
@@ -710,12 +713,15 @@ button {
   }
   .similar-fone {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 137px);
     grid-gap: 25px 50px;
   }
   .similar-item img {
     width: 137px;
     height: 137px;
+  }
+  .similar-item p {
+    letter-spacing: 0.1px;
   }
 }
 
