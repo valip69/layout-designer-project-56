@@ -193,6 +193,12 @@ button {
     display: flex;
     flex-direction: column;
   }
+  .section-footer-sector-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 60px;
+  }
 }
 .main-banner {
   padding-top: 200px;
@@ -385,7 +391,7 @@ button {
   margin-top: 0;
 }
 
-.news-box {
+.news-item {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
@@ -393,6 +399,12 @@ button {
 
 .news-body h3 {
   text-transform: none;
+}
+
+.news-body p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 30px 0 24px;
 }
 
 .news-item {
@@ -424,7 +436,7 @@ button {
 
 .news-foto-2 {
   margin-top: 83px;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .news-col {
@@ -439,8 +451,8 @@ button {
 }
 
 .news-data {
-  font-size: 12.8px;
-  line-height: 150%;
+  font-size: 12px;
+  line-height: 19px;
 }
 
 @media (max-width: 440px) {
@@ -449,16 +461,18 @@ button {
     line-height: 24px;
   }
   .news-item p {
-    font-size: 15.6px;
+    font-size: 16px;
     line-height: 24px;
-  }
-  .section-news {
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-top: 16px;
   }
   .news-box {
+    display: grid;
+    gap: 50px;
+  }
+  .news-item {
     display: flex;
     flex-direction: column;
+    gap: 0;
   }
   .news-foto-1 {
     margin: 0 auto;
@@ -514,10 +528,6 @@ button {
 }
 
 @media (max-width: 440px) {
-  .app-section {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
   .app-section h2 {
     margin-bottom: 50px;
   }
@@ -526,7 +536,7 @@ button {
     flex-direction: column-reverse;
   }
   .app-fone-text p {
-    letter-spacing: -0.5px;
+    letter-spacing: -0.45px;
   }
 }
 .section-description {
