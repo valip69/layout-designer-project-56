@@ -167,7 +167,7 @@ button {
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 40px;
   text-align: start;
-  padding: 3rem 0;
+  padding: 60px 0;
   border-bottom: 2px solid #cacaca;
 }
 
@@ -178,7 +178,7 @@ button {
 }
 
 .section-footer-sector-2 {
-  padding: 2rem 0;
+  padding: 40px 0 49px;
   display: flex;
   gap: 16px;
   font-size: 16px;
@@ -424,9 +424,9 @@ button {
 }
 
 .bot {
-  font-size: 12.8px;
-  line-height: 19.2px;
-  padding: 16px 30px;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
   border: 1px solid #cacaca;
 }
 
@@ -536,7 +536,7 @@ button {
     flex-direction: column-reverse;
   }
   .app-fone-text p {
-    letter-spacing: -0.45px;
+    letter-spacing: -0.33px;
   }
 }
 .section-description {
