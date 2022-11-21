@@ -162,15 +162,21 @@ button {
   line-height: 27px;
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.section-footer h2 ~ div {
+  font-size: 0;
 }
 
 .section-footer-sector-1 {
+  padding: 62px 0 72px;
+  border-bottom: 2px solid #cacaca;
+}
+.section-footer-sector-1-wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 40px;
   text-align: start;
-  padding: 60px 0;
-  border-bottom: 2px solid #cacaca;
 }
 
 .section-footer-block a {
@@ -181,6 +187,8 @@ button {
 
 .section-footer-sector-2 {
   padding: 40px 0 49px;
+}
+.section-footer-sector-2-wrapper {
   display: flex;
   gap: 16px;
   font-size: 16px;
@@ -191,15 +199,17 @@ button {
 }
 
 @media (max-width: 440px) {
-  .dol {
-    display: flex;
-    flex-direction: column;
-  }
   .section-footer-sector-1 {
+    padding-top: 60px;
+  }
+  .section-footer-sector-1-wrapper {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding-top: 60px;
+  }
+  .section-footer-sector-2-wrapper {
+    display: flex;
+    flex-direction: column;
   }
 }
 .main-banner {
