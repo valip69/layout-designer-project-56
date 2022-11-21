@@ -385,16 +385,16 @@ button {
   .bg-free {
     background-position: center;
     background-position-y: 0;
-    background-size: 349px 621px;
+    background-size: 374px 621px;
   }
   .bg-standart {
     background-position-y: 0;
-    background-size: 349px 621px;
+    background-size: 374px 621px;
   }
   .bg-premium {
     background-position: center;
     background-position-y: 0;
-    background-size: 349px 621px;
+    background-size: 374px 621px;
   }
 }
 .section-news {
@@ -440,10 +440,12 @@ button {
 }
 
 .bot {
+  font-family: Roboto, sans-serif;
   font-size: 12px;
   line-height: 19px;
   text-transform: uppercase;
   border: 1px solid #cacaca;
+  padding: 17px 30px;
 }
 
 .news-foto-1 {
@@ -553,6 +555,10 @@ button {
   .app-fone {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .app-fone-text {
+    font-size: 16px;
+    line-height: 24px;
   }
   .bolt {
     letter-spacing: -0.4px;
