@@ -412,6 +412,9 @@ button {
     background-position-y: 0;
     background-size: 374px 621px;
   }
+  .section-pricing h2 {
+    margin-bottom: 46px;
+  }
 }
 .section-news {
   padding-top: 100px;
