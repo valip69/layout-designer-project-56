@@ -205,7 +205,7 @@ button {
   .section-footer-sector-1-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 32px;
   }
   .section-footer-sector-2 {
     padding-bottom: 47px;
