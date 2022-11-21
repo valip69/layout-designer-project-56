@@ -200,12 +200,12 @@ button {
 
 @media (max-width: 440px) {
   .section-footer-sector-1 {
-    padding-bottom: 76px;
+    padding-bottom: 70px;
   }
   .section-footer-sector-1-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 29px;
+    gap: 31px;
   }
   .section-footer-sector-2 {
     padding-bottom: 47px;
