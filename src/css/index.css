@@ -8,6 +8,8 @@ html {
   font-size: 18px;
   line-height: 1.5;
   color: #cacaca;
+  width: 100 vw;
+  height: 100 vh;
 }
 
 body {
@@ -135,7 +137,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 0;
-    margin-top: 17px;
+    margin-top: 16px;
     font-size: 11px;
     line-height: 16px;
     font-weight: 700;
@@ -262,7 +264,7 @@ button {
     letter-spacing: -0.2px;
   }
   .main-banner {
-    padding-top: 250px;
+    padding-top: 248px;
   }
   .main-block {
     display: flex;
@@ -379,6 +381,20 @@ button {
   }
   .pricing-footer {
     letter-spacing: -0.2px;
+  }
+  .bg-free {
+    background-position: center;
+    background-position-y: 0;
+    background-size: 349px 621px;
+  }
+  .bg-standart {
+    background-position-y: 0;
+    background-size: 349px 621px;
+  }
+  .bg-premium {
+    background-position: center;
+    background-position-y: 0;
+    background-size: 349px 621px;
   }
 }
 .section-news {

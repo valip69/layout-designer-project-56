@@ -61,7 +61,7 @@
     }
     
     .main-banner {
-       padding-top: 250px;
+       padding-top: 248px;
     }
     .main-block {
       display: flex;
@@ -190,6 +190,22 @@
 
   .pricing-footer {
     letter-spacing: -0.2px;
+  }
+  .bg-free {
+    background-position: center;
+    background-position-y: 0;
+    background-size: 349px 621px; 
+  }
+  
+  .bg-standart { 
+    background-position-y: 0;
+    background-size: 349px 621px; 
+  }
+  
+  .bg-premium {
+    background-position: center;
+    background-position-y: 0;
+    background-size: 349px 621px; 
   }
   
 
