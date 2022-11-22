@@ -413,7 +413,7 @@ button {
     background-size: 374px 621px;
   }
   .section-pricing h2 {
-    margin-bottom: 46px;
+    margin-bottom: 47px;
   }
 }
 .section-news {
@@ -460,8 +460,7 @@ button {
 
 .bot {
   font-family: Roboto, sans-serif;
-  font-size: 12px;
-  line-height: 19px;
+  font-size: 12.8px;
   text-transform: uppercase;
   border: 1px solid #cacaca;
   padding: 17px 30px;
@@ -508,7 +507,7 @@ button {
   }
   .news-box {
     display: grid;
-    gap: 50px;
+    gap: 64px;
   }
   .news-item {
     display: flex;
@@ -569,18 +568,17 @@ button {
 
 @media (max-width: 440px) {
   .app-section h2 {
-    margin-bottom: 50px;
+    margin-bottom: 49px;
   }
   .app-fone {
     display: flex;
     flex-direction: column-reverse;
   }
-  .app-fone-text {
-    font-size: 16px;
-    line-height: 24px;
+  .app-fone-text p {
+    margin-top: 0;
   }
   .bolt {
-    letter-spacing: -0.4px;
+    letter-spacing: -0.35px;
   }
 }
 .section-description {
