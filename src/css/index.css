@@ -497,6 +497,10 @@ button {
   line-height: 19px;
 }
 
+.index-2 p {
+  margin-bottom: 16px;
+}
+
 @media (max-width: 440px) {
   .news-body h3 {
     font-size: 16px;
@@ -580,7 +584,7 @@ button {
     margin-top: 10.5px;
   }
   .bolt {
-    letter-spacing: -0.35px;
+    letter-spacing: 0, 3px;
   }
 }
 .section-description {
