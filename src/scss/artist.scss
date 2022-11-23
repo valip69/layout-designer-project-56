@@ -1,215 +1,215 @@
 .section-description {
-    padding: 200px 0 220px; 
-    background-image: url("../images/Morten Harket.png");
-    background-position: center;
-    background-size: cover;
-    h1 {
-      margin-bottom: 0;
-    }
-    &-btn {
-      display: flex;
-      gap: 1.5rem;
-      margin: 48px 0 0;
-    }
-    &-form {  
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      min-width: 200px;
-      padding: 20px 30px;
-      border: none; 
-      border-radius: 5px; 
-      font-size: 12.8px;
-    }
-  }
-   
+  padding: 200px 0 220px;
 
-  .btn-blue {
-    background: #5328A1; 
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+
+  h1 {
+    margin-bottom: 0;
   }
 
-  .btn-orange {
-    background: #95390C; 
-  }
-  .icon-bt {   
-    width: 20px;
-    height: 20px;  
+  &-btn {
+    display: flex;
+    gap: 1.5rem;
+    margin: 48px 0 0;
   }
 
-  @media (max-width: $mobile) {
-    .section-description-btn {
-      display: flex;
-      flex-direction: column;
-      margin-top: 48px;
-      width: 200px;
-    }
-     
+  &-form {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    min-width: 200px;
+    padding: 20px 30px;
+
+    font-size: 12.8px;
+
+    border: none;
+    border-radius: 5px;
   }
+}
 
+.btn-blue {
+  background: #5328a1;
+}
 
-  .section-track {
-    padding-top: 100px;  
- }
+.btn-orange {
+  background: #95390c;
+}
 
- .section-track-box {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-gap: 25px 50px;
+.icon-bt {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: $mobile) {
+  .section-description-btn {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
     margin-top: 48px;
-     
-    
+  }
+}
+
+.section-track {
+  padding-top: 100px;
+}
+
+.section-track-box {
+  display: grid;
+  grid-gap: 25px 50px;
+  grid-template-columns: repeat(2, auto);
+  margin-top: 48px;
 }
 
 .popular-track {
-    display: grid;
-    grid-template-columns: 70px auto min-content;
-    align-items: center;
-    
- }
-   
-  
- .section-track img {
-    width: 55px;
-    height: 55px;
-     
- } 
-  
-
- .section-track h3 {
-     font-size: 12.8px;
-     line-height: 19.2px;
-     font-weight: bold;
-
- }
-
- .section-track p {
-    font-size: 12.8px;
-    line-height: 19.2px;
-    margin: 0;
-     
- }
-
- @media (max-width: $mobile) {
-  .section-track {
-     padding: 100px 20px 0;
-  }
-  .section-track-box {
-     display: flex;
-     flex-direction: column;
-   }
-      
-}
-  
- .section-discography {
-  padding-top: 100px;
- }
-
- .section-discography h2 {
-  margin-bottom: 48px;
- }
-
- .discography-box {
   display: grid;
-  grid-template-columns: repeat(4, 250px);
-  grid-gap: 25px 50px;
- }
+  grid-template-columns: 70px auto min-content;
+  align-items: center;
+}
 
- .discography-item img {
+.section-track img {
+  width: 55px;
+  height: 55px;
+}
+
+.section-track h3 {
+  font-weight: bold;
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
+
+.section-track p {
+  margin: 0;
+
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
+
+@media (max-width: $mobile) {
+  .section-track {
+    padding: 100px 20px 0;
+  }
+
+  .section-track-box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.section-discography {
+  padding-top: 100px;
+}
+
+.section-discography h2 {
+  margin-bottom: 48px;
+}
+
+.discography-box {
+  display: grid;
+  grid-gap: 25px 50px;
+  grid-template-columns: repeat(4, 250px);
+}
+
+.discography-item img {
   width: 250px;
   height: 250px;
-   
-} 
+}
 
 .discography-item p {
+  margin: 0;
+
   font-size: 16px;
   line-height: 24px;
-  margin: 0; 
 }
- 
+
 .discography-info h3 {
+  margin-top: 11px;
+
+  font-weight: bold;
   font-size: 18px;
   line-height: 27px;
-  font-weight: bold;
   text-transform: none;
-  margin-top: 11px;
 }
 
 @media (max-width: $mobile) {
   .section-discography {
-     padding: 100px 20px 0;
+    padding: 100px 20px 0;
   }
+
   .discography-box {
     display: grid;
-    grid-template-columns: repeat(2, 137px);
     grid-gap: 25px 50px;
-   }
-   .discography-item img {
+    grid-template-columns: repeat(2, 137px);
+  }
+
+  .discography-item img {
     width: 137px;
     height: 137px;
-     
   }
-.discography-info h3 {  
-letter-spacing: -0.1px; 
-  }  
+
+  .discography-info h3 {
+    letter-spacing: -0.1px;
+  }
 }
 
 .similar-section {
-  padding-top: 100px;
   margin-bottom: 100px;
+  padding-top: 100px;
+
   text-align: center;
- }
+}
 
-
- .similar-section h2 {
+.similar-section h2 {
   margin-bottom: 48px;
+
   text-align: start;
- }
+}
 
- .similar-fone {
+.similar-fone {
   display: grid;
-  grid-template-columns: repeat(4, 250px);
   grid-gap: 25px 50px;
- }
+  grid-template-columns: repeat(4, 250px);
+}
 
- .similar-item img {
+.similar-item img {
   width: 250px;
-  height: 250px;  
-} 
+  height: 250px;
+}
 
 .similar-info h3 {
+  margin-top: 11px;
+
+  font-weight: bold;
   font-size: 18px;
   line-height: 27px;
-  font-weight: bold;
   text-transform: capitalize;
-  margin-top: 11px;
 }
 
 .similar-item p {
+  margin: 0;
+
   font-size: 16px;
   line-height: 24px;
-  margin: 0;
 }
 
 @media (max-width: $mobile) {
   .similar-section {
-     padding: 100px 20px 0;
+    padding: 100px 20px 0;
   }
+
   .similar-fone {
     display: grid;
-    grid-template-columns: repeat(2, 137px);
     grid-gap: 25px 50px;
-   }
-   .similar-item img {
+    grid-template-columns: repeat(2, 137px);
+  }
+
+  .similar-item img {
     width: 137px;
     height: 137px;
-     
   }
+
   .similar-item p {
     letter-spacing: 0.1px;
-  } 
-   
+  }
 }
-
-
- 
- 

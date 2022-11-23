@@ -1,75 +1,78 @@
 .header {
-    position: absolute;
-    display: flex;
-    align-items: center; 
-    width: 100%; 
-    max-width: 1200px;
-    top: 25px; 
-    font-size: 11px;
-    line-height: 16px;
-    font-weight: 400; 
-    text-transform: uppercase;  
-    left: 50%;
-    transform: translateX(-50%);
+  position: absolute;
+  top: 25px;
+  left: 50%;
 
-  }
-  
-  .header-icon {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    margin-right: 70px;
-  }
-  .header-icon p {
-    margin: 0;
-    
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  transform: translateX(-50%);
+}
+
+.header-icon {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-right: 70px;
+}
+
+.header-icon p {
+  margin: 0;
+}
+
+.header-menu {
+  display: flex;
+  gap: 24px;
+  margin-right: auto;
+}
+
+.header-button {
+  width: 100%;
+  max-width: 248px;
+  padding: 5px 10px;
+
+  color: #757575;
+  text-align: start;
+  text-transform: uppercase;
+
+  background: #3c3b3d;
+  border: none;
+  border-radius: 50px;
+}
+
+@media (max-width: $mobile) {
+  .header {
+    display: grid;
+    padding: 0 20px;
   }
 
   .header-menu {
     display: flex;
-    gap: 24px;
-    margin-right: auto;
-  } 
-    
+    flex-direction: column;
+    gap: 0;
+    margin-top: 16px;
+
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .header-icon {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+  }
+
   .header-button {
     width: 100%;
-    max-width: 248px;
-    background: #3C3B3D;
-    border-radius: 50px;
-    color: #757575;
-    text-transform: uppercase;
-    padding: 5px 10px;
-    border: none;
-    text-align: start;
+    max-width: 365px;
+    margin: 15px 0 0;
   }
-
-  @media (max-width: $mobile) { 
-    .header {
-       display: grid;
-       padding: 0 20px;  
-    }
-    
-     .header-menu {
-       display: flex;
-       flex-direction: column;
-       gap: 0;
-       margin-top: 16px;
-       font-size: 11px;
-       line-height: 16px;
-       font-weight: 700;
-     }
-
-
-     .header-icon {
-      font-size: 11px;
-      line-height: 16px;
-      font-weight: 700;
-
-     }
-     .header-button {
-       margin: 15px 0 0;
-       width: 100%;
-       max-width: 365px;
-        
-     }
-  }
+}
