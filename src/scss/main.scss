@@ -135,13 +135,14 @@
   margin: 64px 0;
 }
 
-.section-pricing-cart button {
+.pricing-btn {
   width: 100%;
   font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
   color: #FFF;
   height: 66px;
+  display: inline-block;
 }
 
 .text {
@@ -263,7 +264,7 @@
 }
 
 
-.bot {
+.news-btn {
   font-family: Roboto, sans-serif;
   font-size: 12.8px; 
   text-transform: uppercase;
@@ -304,7 +305,7 @@
 
 
 .index-2 p {
-  margin-bottom: 16px;
+  margin-bottom: 15px;
 }
 
 

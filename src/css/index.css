@@ -53,7 +53,7 @@ a {
   height: 24px;
 }
 
-button {
+.btn {
   font-family: Roboto, sans-serif;
   padding: 20px 30px;
   color: #cacaca;
@@ -346,13 +346,14 @@ button {
   margin: 64px 0;
 }
 
-.section-pricing-cart button {
+.pricing-btn {
   width: 100%;
   font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
   color: #FFF;
   height: 66px;
+  display: inline-block;
 }
 
 .text {
@@ -460,7 +461,7 @@ button {
   margin: 0;
 }
 
-.bot {
+.news-btn {
   font-family: Roboto, sans-serif;
   font-size: 12.8px;
   text-transform: uppercase;
@@ -499,7 +500,7 @@ button {
 }
 
 .index-2 p {
-  margin-bottom: 16px;
+  margin-bottom: 15px;
 }
 
 @media (max-width: 440px) {
